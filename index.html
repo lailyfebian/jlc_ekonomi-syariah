@@ -1,0 +1,1842 @@
+<!doctype html>
+<html lang="id">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Favicon -->
+    <link rel="icon" href="images/favicon.webp" type="image/x-icon"><!-- 
+    <link rel="apple-touch-icon" sizes="180x180" href="https://bimbelmakala.com/images/logo.png"> --><!-- 
+    <link rel="icon" type="image/png" sizes="192x192" href="images/logo.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="https://bimbelmakala.com/images/logo.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="https://bimbelmakala.com/images/logo.png">
+     -->
+    <meta name="google-site-verification" content="JFkiqacNWeoY1n4oTtuShUuE_idjc2QRvaghpyLi3DE" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+
+        <title>Justicia Legal Counsel | JLC</title>
+    <link rel="canonical" href="https://lawfirm-jlc.com" />
+    <meta name="description"
+        content="Bimbel Makala menyediakan bimbingan terpercaya untuk persiapan seleksi AKPOL, AKMIL, Bintara Polri, Sekolah Kedinasan, FK & PTN, CPNS, dan PPPK" />
+    <meta name="keywords" content="Bimbel Makala">
+    <meta property="og:locale" content="id" />
+    <meta property="og:title" content="Bimbel AKPOL, AKMIL, Kedinasan, FK & PTN, CPNS & PPPK" />
+    <meta property="og:description"
+        content="Bimbel Makala menyediakan bimbingan terpercaya untuk persiapan seleksi AKPOL, AKMIL, Bintara Polri, Sekolah Kedinasan, FK & PTN, CPNS, dan PPPK" />
+    <meta property="og:site_name"
+        content="Bimbel AKPOL, AKMIL, Kedinasan, FK & PTN, CPNS & PPPK" />
+    <meta property="og:image" content="https://bimbelmakala.com/images/hero-image.webp" />
+    <meta property="og:image:width" content="1280" />
+    <meta property="og:image:height" content="720" />
+    <meta property="og:image:type" content="image/webp" />
+    <meta name="twitter:card" content="Bimbel Makala">
+    <meta name="twitter:title" content="Bimbel AKPOL, AKMIL, Kedinasan, FK & PTN, CPNS & PPPK">
+    <meta name="twitter:description"
+        content="Bimbel Makala menyediakan bimbingan terpercaya untuk persiapan seleksi AKPOL, AKMIL, Bintara Polri, Sekolah Kedinasan, FK & PTN, CPNS, dan PPPK">
+    <meta name="twitter:image" content="https://bimbelmakala.com/images/hero-image.webp">
+    <meta name="twitter:url" content="https://bimbelmakala.com">
+    <!-- Critical CSS for above-the-fold content -->
+    <style>
+        .hero {
+            background: url('../images/hero-bg.webp');
+            background-color: #002B5B;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            min-height: 600px;
+            display: flex;
+            align-items: center;
+            color: #fff;
+            padding: 120px 0 60px;
+            will-change: transform;
+        }
+
+        .hero-flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .hero-content {
+            flex: 1 1 0;
+            max-width: 600px;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.1;
+            text-transform: uppercase;
+        }
+
+        .hero-image {
+            flex: 1 1 0;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            min-width: 300px;
+            max-height: 500px;
+            object-fit: contain;
+        }
+
+        .section-content {
+            display: flex;
+            gap: 4rem;
+            padding: 4rem 0;
+        }
+
+        .left-content {
+            flex: 1;
+        }
+
+        .right-content {
+            flex: 1;
+        }
+
+        .benefits-accordion {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .benefit-item {
+            border: 1px solid #e9ecef;
+            border-radius: 4px;
+            overflow: hidden;
+        }
+
+        .benefit-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem;
+            background: #fff;
+            cursor: pointer;
+        }
+
+        .benefit-header h4 {
+            margin: 0;
+            color: #002B5B;
+            font-size: 1.1rem;
+        }
+
+        .benefit-header i {
+            color: #002B5B;
+            transition: transform 0.3s ease;
+        }
+
+        .benefit-content {
+            display: none;
+            padding: 1rem;
+            background: #f8f9fa;
+            border-top: 1px solid #e9ecef;
+        }
+
+        .benefit-content p,
+        .benefit-content ul {
+            color: #666;
+            margin: 0;
+        }
+
+        .benefit-content ul {
+            padding-left: 1.2rem;
+        }
+
+        .benefit-item.active .benefit-header i {
+            transform: rotate(180deg);
+        }
+
+        .benefit-item.active .benefit-content {
+            display: block;
+        }
+
+        .hero-flex {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 40px;
+        }
+
+        .hero-content {
+            flex: 1 1 0;
+            max-width: 600px;
+        }
+
+        .hero-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            line-height: 1.1;
+            text-transform: uppercase;
+        }
+
+        .hero-image {
+            flex: 1 1 0;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+        }
+
+        .hero-image img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            min-width: 300px;
+            max-height: 500px;
+            object-fit: contain;
+        }
+    </style>
+
+    <meta name="google-site-verification" content="4ETz6uSFuDQIrjCSF0zniOO329lz36nOqt_BcshJUSA" />
+
+    <link rel="stylesheet" href="style-fix.css" type="text/css">
+    <!-- Preload critical images -->
+    <link rel="preload" href="images/hero-bg.webp" as="image" type="image/webp"
+        fetchpriority="high">
+    <link rel="preload" href="images/hero-image.webp" as="image" type="image/webp">
+    <!-- Preconnect for YouTube -->
+    <link rel="preconnect" href="https://www.youtube.com">
+    <link rel="preconnect" href="https://www.youtube-nocookie.com">
+    <link rel="preconnect" href="https://i.ytimg.com">
+    <link rel="preconnect" href="https://www.googlevideo.com">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="preconnect">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+</head>
+
+<body>
+    <div id="app">
+        <nav>
+            <!-- Header -->
+<header id="header" class="header">
+    <div class="container">
+        <nav class="navbar">
+            <div class="logo">
+                <img fetchpriority="high" src="images/logo-web.jpeg" alt="Bimbel Makala Logo">
+            </div>
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li>
+                    <a href="https://bimbelmakala.com" class="active">Beranda</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#"
+                        class="dropdown-toggle ">Layanan
+                        <i class="fas fa-chevron-down"></i></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Sekolah Kedinasan</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Arbitrase</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Corporate &amp; Business</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Hukum Keluarga</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Hukum Pajak</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Hukum Tata Usaha Negara (TUN)</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Jasa Notaris &amp; PPAT</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Litigasi Perdata</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Litigasi Pidana</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Perizinan Usaha</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Upaya Hukum</a>
+                        </li>
+                        <li class="dropdown-item">
+                            <a href="#" class="dropdown-toggle">Sekolah Kedinasan</a>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#" class="#testimoni'">Tim Kami</a>
+                </li>
+                <li>
+                    <a href="#" class="#testimoni'">Kontak</a>
+                </li>
+            </ul>
+            <div class="contact-btn">
+                <a href="https://wa.lawfirm-jlc.com?kebutuhan=Bimbel Terbaik" class="btn text-white" rel="nofollow">
+                    Hubungi Kami
+                </a>
+            </div>
+        </nav>
+    </div>
+</header>
+
+        </nav>
+        <main class="pb-4">
+    <section class="hero hero-ekonomi-syariah">
+        <div class="container hero-flex">
+            <div class="hero-content">
+                <span class="hero-label">JUSTICIA LEGAL COUNSEL</span>
+
+                <h1 class="hero-title">
+                    <span class="highlight">Pengacara Ekonomi Syariah Profesional untuk Pendampingan Hukum dan Penyelesaian Sengketa</span>
+                </h1>
+
+                <p>JLC menyediakan layanan <b>Pengacara Ekonomi Syariah</b> untuk membantu individu, perusahaan, pelaku usaha, maupun lembaga dalam menghadapi berbagai persoalan hukum terkait transaksi dan aktivitas ekonomi berbasis syariah.</p>
+
+                <p>Dengan pendampingan tenaga hukum profesional, JLC membantu klien menangani sengketa akad, pembiayaan perbankan syariah, kerja sama bisnis, hingga permasalahan investasi syariah. Tersedia pula pilihan <b>Pengacara Perempuan Ekonomi Syariah</b> bagi klien yang membutuhkan pendampingan advokat perempuan.</p>
+
+                <a href="https://wa.lawfirm-jlc.com?kebutuhan=Bimbel Makala" class="btn text-white" rel="nofollow">
+                    KONSULTASI SEKARANG
+                </a>
+            </div>
+
+            <div class="hero-image">
+                <img src="images/hero.jpeg" alt="Bimbel Makala" width="500" height="600" decoding="sync">
+            </div>
+        </div>
+    </section>
+</main>
+
+    <section class="video-info-ekonomi-syariah section">
+    <div class="container">
+        <div class="video-info-ekonomi-content">
+
+            <div class="video-info-ekonomi-image">
+                <img src="images/gallery/foto-2.jpeg"
+                    alt="Pendampingan Pengacara Ekonomi Syariah JLC"
+                    loading="lazy">
+            </div>
+
+            <div class="video-info-ekonomi-text">
+                <h2>Layanan Pengacara Ekonomi Syariah untuk Berbagai Sengketa</h2>
+
+                <p>
+                    Indonesia Law Consultant menyediakan pendampingan hukum dalam menangani berbagai permasalahan ekonomi syariah, mulai dari sengketa perbankan syariah, pembiayaan, akad bisnis, hingga perselisihan transaksi berbasis prinsip syariah. Didukung pengacara berpengalaman, setiap perkara ditangani dengan mempertimbangkan ketentuan hukum yang berlaku.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+  <!--   
+    <section class="institutions section">
+    <div class="container">
+        <div class="institutions-slider">
+            <div class="slider-container marquee">
+                <div class="slider-track">
+
+                    <div class="slider-item">
+                        <div class="institution-card">
+                            <img src="images/gallery/galeri/galeri-1.jpeg" alt="Galeri JLC 1">
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="institution-card">
+                            <img src="images/gallery/galeri/galeri-2.jpeg" alt="Galeri JLC 2">
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="institution-card">
+                            <img src="images/gallery/galeri/galeri-3.jpeg" alt="Galeri JLC 3">
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="institution-card">
+                            <img src="images/gallery/galeri/galeri-4.jpeg" alt="Galeri JLC 4">
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="institution-card">
+                            <img src="images/gallery/galeri/galeri-5.jpeg" alt="Galeri JLC 5">
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="institution-card">
+                            <img src="images/gallery/galeri/galeri-6.jpeg" alt="Galeri JLC 6">
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="institution-card">
+                            <img src="images/gallery/galeri/galeri-7.jpeg" alt="Galeri JLC 7">
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="institution-card">
+                            <img src="images/gallery/galeri/galeri-8.jpeg" alt="Galeri JLC 8">
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="slider-nav marquee-nav">
+                <button class="slider-prev">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-next">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section> -->
+
+    <!-- <section class="vision section">
+        <div class="container">
+            <div class="vision-content">
+                <div class="vision-carousel">
+                    <div class="vision-slide active">
+                        <div class="vision-flex">
+                            <div class="vision-text">
+                                <p>Indonesia Law Consultant menyediakan pendampingan hukum dalam menangani berbagai permasalahan ekonomi syariah, mulai dari sengketa perbankan syariah, pembiayaan, akad bisnis, hingga perselisihan transaksi berbasis prinsip syariah. Didukung pengacara berpengalaman, setiap perkara ditangani dengan mempertimbangkan ketentuan hukum yang berlaku.</p>
+                                <a href="https://wa.lawfirm-jlc.com?kebutuhan=Bimbel Makala" class="btn text-white"
+                                    rel="nofollow">
+                                    Hubungi Kami
+                                </a>
+                            </div>
+                            <div class="vision-image">
+                                <img src="images/pengacara-perempuan.jpeg" alt="pengacara">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="features-highlight-ekonomi">
+    <div class="container">
+
+        <h3 class="highlight-title">
+            Pendampingan Hukum Ekonomi Syariah untuk Berbagai Permasalahan
+        </h3>
+
+        <p class="highlight-description">
+            JLC membantu klien memahami berbagai persoalan hukum yang berkaitan dengan transaksi ekonomi syariah, mulai dari pemeriksaan akad hingga penyelesaian sengketa melalui mekanisme hukum yang tersedia.
+        </p>
+
+        <div class="highlight-grid">
+
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="bi bi-file-earmark-text"></i>
+                </div>
+
+                <p class="highlight-subtitle">
+                    Analisis Akad dan Perjanjian Syariah
+                </p>
+
+                <p>
+                    Pemeriksaan dokumen perjanjian untuk mengidentifikasi hak, kewajiban, potensi pelanggaran, dan konsekuensi hukum dari suatu kesepakatan.
+                </p>
+            </div>
+
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="bi bi-shield"></i>
+                </div>
+
+                <p class="highlight-subtitle">
+                    Penyelesaian Sengketa Ekonomi Syariah
+                </p>
+
+                <p>
+                    Pendampingan dalam menghadapi perselisihan transaksi, pembiayaan, kerja sama usaha, maupun hubungan hukum lainnya berdasarkan prinsip ekonomi syariah.
+                </p>
+            </div>
+
+            <div class="highlight-card">
+                <div class="highlight-icon">
+                    <i class="bi bi-bank"></i>
+                </div>
+
+                <p class="highlight-subtitle">
+                    Konsultasi Hukum Perbankan Syariah
+                </p>
+
+                <p>
+                    Bantuan hukum terkait hubungan antara nasabah dan lembaga keuangan syariah, termasuk permasalahan pembiayaan dan pelaksanaan akad.
+                </p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section class="why-choose-ekonomi-syariah section" id="keunggulan">
+    <div class="container">
+        <div class="why-choose-ekonomi-content">
+
+            <div class="why-choose-ekonomi-image">
+                <img src="images/pp.png"
+                    alt="Pendampingan Pengacara Ekonomi Syariah JLC"
+                    class="officer-image">
+
+                <div class="circle-decoration"></div>
+                <div class="dots-decoration"></div>
+            </div>
+
+            <div class="why-choose-ekonomi-text">
+                <h3>Mengapa Memilih Jasa Pengacara Ekonomi Syariah JLC?</h3>
+
+                <p>
+                    Menghadapi sengketa ekonomi syariah membutuhkan ketelitian dalam memahami dokumen, kronologi transaksi, serta dasar hukum yang berkaitan dengan perkara. JLC menyediakan pendampingan untuk membantu klien memperoleh gambaran hukum yang jelas sebelum menentukan langkah selanjutnya.
+                </p>
+
+                <p>
+                    Melalui layanan konsultasi dan penanganan perkara, JLC membantu klien mempersiapkan kebutuhan hukum sesuai karakteristik permasalahan yang dihadapi.
+                </p>
+
+                <p><strong>Keunggulan Pendampingan Hukum JLC:</strong></p>
+
+                <ul class="benefits-list">
+                    <li>
+                        <span class="arrow-icon">»</span>
+                        <span>Analisis permasalahan berdasarkan kronologi dan bukti yang tersedia.</span>
+                    </li>
+                    <li>
+                        <span class="arrow-icon">»</span>
+                        <span>Pemeriksaan akad, kontrak, serta dokumen transaksi ekonomi syariah.</span>
+                    </li>
+                    <li>
+                        <span class="arrow-icon">»</span>
+                        <span>Pendampingan oleh tenaga hukum profesional.</span>
+                    </li>
+                    <li>
+                        <span class="arrow-icon">»</span>
+                        <span>Tersedia pilihan Pengacara Perempuan Ekonomi Syariah.</span>
+                    </li>
+                    <li>
+                        <span class="arrow-icon">»</span>
+                        <span>Penyusunan strategi penyelesaian perkara berdasarkan ketentuan hukum.</span>
+                    </li>
+                    <li>
+                        <span class="arrow-icon">»</span>
+                        <span>Pendampingan dalam proses negosiasi, mediasi, maupun litigasi sesuai kebutuhan.</span>
+                    </li>
+                </ul>
+
+                <a href="https://wa.lawfirm-jlc.com/" class="btn text-white" rel="nofollow">
+                    KONSULTASI SEKARANG
+                </a>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+    <section class="activities-ekonomi-syariah section">
+    <div class="container">
+
+        <div class="section-header">
+            <h3 class="section-title">Galeri Kegiatan JLC</h3>
+        </div>
+
+        <div class="activities-slider">
+            <div class="slider-container marquee">
+                <div class="slider-track">
+
+                    <div class="slider-item">
+                        <img src="images/gallery/galeri/galeri-landscape-1.jpeg" alt="Galeri Kegiatan JLC 1">
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="images/gallery/galeri/galeri-landscape-2.jpeg" alt="Galeri Kegiatan JLC 2">
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="images/gallery/galeri/galeri-landscape-3.jpeg" alt="Galeri Kegiatan JLC 3">
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="images/gallery/galeri/galeri-landscape-4.jpeg" alt="Galeri Kegiatan JLC 4">
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="images/gallery/galeri/galeri-landscape-5.jpeg" alt="Galeri Kegiatan JLC 5">
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="images/gallery/galeri/galeri-landscape-6.jpeg" alt="Galeri Kegiatan JLC 6">
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="images/gallery/galeri/galeri-landscape-7.jpeg" alt="Galeri Kegiatan JLC 7">
+                    </div>
+
+                    <div class="slider-item">
+                        <img src="images/gallery/galeri/galeri-landscape-8.jpeg" alt="Galeri Kegiatan JLC 8">
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="slider-nav marquee-nav">
+                <button class="slider-prev" type="button" aria-label="Foto sebelumnya">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+
+                <button class="slider-next" type="button" aria-label="Foto berikutnya">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+    
+  
+        <section class="syariah-services section">
+            <div class="container">
+                <div class="syariah-services-header">
+                    <h2 class="syariah-services-title">LAYANAN PENGACARA EKONOMI SYARIAH JLC</h2>
+                    <p class="syariah-services-description">
+                        JLC menyediakan berbagai pilihan layanan hukum untuk membantu klien menghadapi persoalan dalam aktivitas ekonomi berbasis syariah. Setiap layanan mempertimbangkan jenis transaksi, isi akad, hubungan hukum para pihak, dan bentuk perselisihan yang terjadi.
+                    </p>
+                </div>
+
+                <div class="syariah-services-grid">
+                    <div class="syariah-service-card">
+                        <div class="syariah-service-icon">
+                            <i class="fas fa-file-contract"></i>
+                        </div>
+                        <h3>Pengacara Sengketa Akad Syariah</h3>
+                        <p>
+                            Pendampingan hukum untuk menangani perselisihan akibat pelaksanaan akad yang tidak sesuai kesepakatan, pelanggaran kewajiban, maupun perbedaan penafsiran perjanjian.
+                        </p>
+                    </div>
+
+                    <div class="syariah-service-card">
+                        <div class="syariah-service-icon">
+                            <i class="fas fa-landmark"></i>
+                        </div>
+                        <h3>Pengacara Sengketa Perbankan Syariah</h3>
+                        <p>
+                            Bantuan hukum dalam menangani permasalahan pembiayaan, kewajiban pembayaran, restrukturisasi, serta perselisihan antara nasabah dan lembaga perbankan syariah.
+                        </p>
+                    </div>
+
+                    <div class="syariah-service-card">
+                        <div class="syariah-service-icon">
+                            <i class="fas fa-hand-holding-dollar"></i>
+                        </div>
+                        <h3>Pengacara Sengketa Pembiayaan Syariah</h3>
+                        <p>
+                            Pendampingan dalam menghadapi persoalan pembiayaan berdasarkan akad murabahah, musyarakah, mudharabah, ijarah, dan bentuk akad lainnya sesuai karakteristik perkara.
+                        </p>
+                    </div>
+
+                    <div class="syariah-service-card">
+                        <div class="syariah-service-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <h3>Pengacara Sengketa Bisnis Syariah</h3>
+                        <p>
+                            Penanganan perselisihan kerja sama usaha, pembagian keuntungan, pengelolaan modal, serta pelaksanaan kewajiban para pihak dalam perjanjian bisnis berbasis syariah.
+                        </p>
+                    </div>
+
+                    <div class="syariah-service-card">
+                        <div class="syariah-service-icon">
+                            <i class="fas fa-chart-line"></i>
+                        </div>
+                        <h3>Pengacara Sengketa Investasi Syariah</h3>
+                        <p>
+                            Bantuan hukum terkait perselisihan pengelolaan investasi, pembagian hasil, penggunaan dana, dan pelaksanaan kesepakatan investasi berdasarkan prinsip syariah.
+                        </p>
+                    </div>
+
+                    <div class="syariah-service-card">
+                        <div class="syariah-service-icon">
+                            <i class="fas fa-user-tie"></i>
+                        </div>
+                        <h3>Pengacara Perempuan Ekonomi Syariah</h3>
+                        <p>
+                            Pilihan pendampingan hukum bersama advokat perempuan untuk membantu klien berkonsultasi, memeriksa dokumen, menyusun strategi, dan menghadapi proses penyelesaian sengketa ekonomi syariah.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="syariah-consultation">
+                    <div class="syariah-consultation-icon">
+                        <i class="fas fa-scale-balanced"></i>
+                    </div>
+                    <div class="syariah-consultation-content">
+                        <h3>Konsultasi dengan Pengacara Perempuan Ekonomi Syariah</h3>
+                        <p>
+                            <strong>Indonesia Law Consultant</strong> juga menghadirkan Pengacara Perempuan Ekonomi Syariah yang siap memberikan konsultasi dan pendampingan hukum sesuai kebutuhan klien. Kami membantu memahami permasalahan, menyiapkan strategi penyelesaian sengketa, serta mendampingi proses hukum agar hak dan kepentingan klien mendapatkan perlindungan hukum yang tepat.
+                        </p>
+                        <a href="https://wa.lawfirm-jlc.com/" class="btn btn-primary" rel="nofollow">
+                            KONSULTASI SEKARANG
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+  <section class="syariah-program section">
+    <div class="container">
+        <div class="syariah-program-header">
+            <h2 class="syariah-program-title">
+                PROGRAM PENDAMPINGAN HUKUM EKONOMI SYARIAH JLC
+            </h2>
+            <p class="syariah-program-description">
+                Setiap permasalahan ekonomi syariah membutuhkan pendekatan yang berbeda. JLC membantu klien melalui beberapa bentuk pendampingan yang dapat disesuaikan dengan kebutuhan dan perkembangan perkara.
+            </p>
+        </div>
+
+        <div class="syariah-program-grid">
+            <div class="syariah-program-card">
+                <div class="syariah-program-icon">
+                    <i class="fas fa-comments"></i>
+                </div>
+                <h3>Konsultasi Hukum Ekonomi Syariah</h3>
+                <p>
+                    Layanan konsultasi untuk membahas kronologi permasalahan, mengidentifikasi aspek hukum, serta memperoleh penjelasan mengenai hak dan kewajiban para pihak.
+                </p>
+            </div>
+
+            <div class="syariah-program-card">
+                <div class="syariah-program-icon">
+                    <i class="fas fa-file-signature"></i>
+                </div>
+                <h3>Pendampingan dan Pemeriksaan Dokumen Hukum</h3>
+                <p>
+                    Pengacara membantu menelaah akad, kontrak, bukti transaksi, surat menyurat, dan dokumen pendukung lainnya untuk mengetahui posisi hukum klien.
+                </p>
+            </div>
+
+            <div class="syariah-program-card">
+                <div class="syariah-program-icon">
+                    <i class="fas fa-handshake"></i>
+                </div>
+                <h3>Pendampingan Penyelesaian Sengketa Nonlitigasi</h3>
+                <p>
+                    Bantuan hukum dalam proses negosiasi, musyawarah, dan mediasi untuk mencari penyelesaian perselisihan tanpa melalui proses persidangan apabila memungkinkan.
+                </p>
+            </div>
+
+            <div class="syariah-program-card">
+                <div class="syariah-program-icon">
+                    <i class="fas fa-scale-balanced"></i>
+                </div>
+                <h3>Pendampingan Perkara Litigasi</h3>
+                <p>
+                    Pendampingan dan representasi hukum dalam proses penyelesaian sengketa melalui pengadilan sesuai kewenangan dan ketentuan hukum yang berlaku.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="syariah-advantages section">
+    <div class="container">
+        <div class="syariah-advantages-header">
+            <h2 class="syariah-advantages-title">
+                KEUNGGULAN &amp; LAYANAN PENDAMPINGAN HUKUM JLC
+            </h2>
+            <p class="syariah-advantages-description">
+                JLC memperhatikan setiap tahapan penanganan perkara agar klien memperoleh pemahaman mengenai permasalahan yang dihadapi dan pilihan penyelesaian yang tersedia.
+            </p>
+        </div>
+
+        <div class="syariah-advantages-grid">
+            <div class="syariah-advantage-card">
+                <div class="syariah-advantage-icon">
+                    <i class="fas fa-magnifying-glass"></i>
+                </div>
+                <h3>Analisis Perkara</h3>
+                <p>
+                    Penelaahan kronologi, akad, dokumen transaksi, dan bukti pendukung untuk mengidentifikasi persoalan hukum yang perlu diselesaikan.
+                </p>
+            </div>
+
+            <div class="syariah-advantage-card">
+                <div class="syariah-advantage-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h3>Pengacara Profesional</h3>
+                <p>
+                    Pendampingan hukum oleh advokat yang membantu klien memahami permasalahan dan mempersiapkan langkah penyelesaian perkara.
+                </p>
+            </div>
+
+            <div class="syariah-advantage-card">
+                <div class="syariah-advantage-icon">
+                    <i class="fas fa-user-tie"></i>
+                </div>
+                <h3>Pengacara Perempuan</h3>
+                <p>
+                    Pilihan pendampingan oleh advokat perempuan untuk klien yang menginginkan pendekatan komunikasi dan konsultasi bersama pengacara perempuan.
+                </p>
+            </div>
+
+            <div class="syariah-advantage-card">
+                <div class="syariah-advantage-icon">
+                    <i class="fas fa-chess"></i>
+                </div>
+                <h3>Strategi Penyelesaian Hukum</h3>
+                <p>
+                    Penyusunan langkah penanganan perkara berdasarkan fakta, bukti, dasar hukum, serta kepentingan klien.
+                </p>
+            </div>
+
+            <div class="syariah-advantage-card">
+                <div class="syariah-advantage-icon">
+                    <i class="fas fa-scale-balanced"></i>
+                </div>
+                <h3>Pendampingan Litigasi</h3>
+                <p>
+                    Bantuan hukum dalam mempersiapkan dokumen dan menghadapi proses persidangan sesuai kebutuhan perkara.
+                </p>
+            </div>
+
+            <div class="syariah-advantage-card">
+                <div class="syariah-advantage-icon">
+                    <i class="fas fa-shield"></i>
+                </div>
+                <h3>Kerahasiaan Informasi Klien</h3>
+                <p>
+                    Penanganan informasi dan dokumen klien dengan memperhatikan kewajiban kerahasiaan profesi advokat serta ketentuan hukum yang berlaku.
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+
+    
+    <section class="students section">
+    <div class="container">
+        <div class="team-section-2-heading">
+            <h5 class="team-section-2-title">
+                Pendampingan Hukum dengan Pendekatan Profesional
+            </h5>
+        </div>
+
+        <div class="students-slider">
+            <div class="slider-container">
+                <div class="slider-track">
+
+                    <div class="slider-item">
+                        <div class="team-slider-card">
+                            <div class="team-slider-image">
+                                <img src="images/advokat/team-1.jpeg" alt="Adv. Dodi Dirgantara, S.H." loading="lazy">
+                            </div>
+                            <div class="team-slider-content">
+                                <h3>Adv. Dodi Dirgantara, S.H.</h3>
+                                <span>Advokat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="team-slider-card">
+                            <div class="team-slider-image">
+                                <img src="images/advokat/team-7.jpeg" alt="Adv. Syahra Irfani, S.H." loading="lazy">
+                            </div>
+                            <div class="team-slider-content">
+                                <h3>Adv. Syahra Irfani, S.H.</h3>
+                                <span>Advokat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="team-slider-card">
+                            <div class="team-slider-image">
+                                <img src="images/advokat/team-2.jpeg" alt="Adv. Askan Nor, S.H., M.H." loading="lazy">
+                            </div>
+                            <div class="team-slider-content">
+                                <h3>Adv. Askan Nor, S.H., M.H.</h3>
+                                <span>Advokat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="team-slider-card">
+                            <div class="team-slider-image">
+                                <img src="images/advokat/team-3.jpeg" alt="Adv. Riski Ari Wibowo, S.H." loading="lazy">
+                            </div>
+                            <div class="team-slider-content">
+                                <h3>Adv. Riski Ari Wibowo, S.H.</h3>
+                                <span>Advokat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="team-slider-card">
+                            <div class="team-slider-image">
+                                <img src="images/advokat/team-4.jpeg" alt="Adv. Fadhillah Ahmad Nahrawi, S.H." loading="lazy">
+                            </div>
+                            <div class="team-slider-content">
+                                <h3>Adv. Fadhillah Ahmad Nahrawi, S.H.</h3>
+                                <span>Advokat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="team-slider-card">
+                            <div class="team-slider-image">
+                                <img src="images/advokat/team-5.jpg" alt="Adv. Ahmad Said Fandi, S.H." loading="lazy">
+                            </div>
+                            <div class="team-slider-content">
+                                <h3>Adv. Ahmad Said Fandi, S.H.</h3>
+                                <span>Advokat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="team-slider-card">
+                            <div class="team-slider-image">
+                                <img src="images/advokat/team-6.jpeg" alt="Adv. Muhammad Fawwazul Haqie, S.H." loading="lazy">
+                            </div>
+                            <div class="team-slider-content">
+                                <h3>Adv. Muhammad Fawwazul Haqie, S.H.</h3>
+                                <span>Advokat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="slider-item">
+                        <div class="team-slider-card">
+                            <div class="team-slider-image">
+                                <img src="images/advokat/team-8.jpeg" alt="Adv. Wandra Saputra, S.H." loading="lazy">
+                            </div>
+                            <div class="team-slider-content">
+                                <h3>Adv. Wandra Saputra, S.H.</h3>
+                                <span>Advokat</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="slider-nav marquee-nav">
+                <button class="slider-prev" type="button">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <button class="slider-next" type="button">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+  <!--   
+    <section class="students section">
+        <div class="container">
+            <div class="section-header">
+                <h4 class="section-title">
+                    SISWA/I Bimbel Makala DARI BERBAGAI DAERAH (KOTA) & SEKOLAH </h4>
+            </div>
+            <div class="students-slider">
+                <div class="slider-container marquee">
+                    <div class="slider-track">
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/1.webp"
+                                        alt="Siswa 1">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/2.webp"
+                                        alt="Siswa 2">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/3.webp"
+                                        alt="Siswa 3">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/4.webp"
+                                        alt="Siswa 4">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/5.webp"
+                                        alt="Siswa 5">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/6.webp"
+                                        alt="Siswa 6">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/7.webp"
+                                        alt="Siswa 7">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/8.webp"
+                                        alt="Siswa 8">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/9.webp"
+                                        alt="Siswa 9">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/10.webp"
+                                        alt="Siswa 10">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/11.webp"
+                                        alt="Siswa 11">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/12.webp"
+                                        alt="Siswa 12">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/13.webp"
+                                        alt="Siswa 13">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/14.webp"
+                                        alt="Siswa 14">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/15.webp"
+                                        alt="Siswa 15">
+                                </div>
+                            </div>
+                                                    <div class="slider-item">
+                                <div class="student-card">
+                                    <img src="https://bimbelmakala.com/images/SISWA/16.webp"
+                                        alt="Siswa 16">
+                                </div>
+                            </div>
+                                            </div>
+                </div>
+                <div class="slider-nav marquee-nav">
+                    <button class="slider-prev">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="slider-next">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <section class="jlc-services-section">
+    <div class="jlc-services-container">
+
+        <div class="jlc-services-heading">
+            <h2>
+                Program & Layanan Hukum Justicia Legal Counsel
+            </h2>
+            <p>
+                Justicia Legal Counsel menghadirkan berbagai layanan hukum profesional untuk membantu individu, pelaku usaha, maupun perusahaan menemukan lawyer terbaik sesuai kebutuhan. Mulai dari konsultasi hukum hingga pendampingan perkara, kami menghubungkan Anda dengan pengacara berpengalaman yang siap memberikan solusi hukum secara tepat, cepat, dan terpercaya.
+            </p>
+        </div>
+
+        <div class="jlc-services-grid">
+
+            <!-- HUKUM TUN -->
+            <article id="tun" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">01 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-bank2"></i>
+                        </div>
+                        <h3>Hukum Tata Usaha Negara (TUN)</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Hukum Tata Usaha Negara (TUN) meliputi:</p>
+                    <ul>
+                        <li>Pertanahan</li>
+                        <li>Kepegawaian</li>
+                        <li>Perizinan</li>
+                        <li>Lingkungan Hidup</li>
+                        <li>Tender / Pengadaan Barang Jasa</li>
+                        <li>Badan Hukum / Partai Politik</li>
+                        <li>Kepala Desa dan Perangkat Desa</li>
+                        <li>Kepala Daerah</li>
+                        <li>Proses Pemilihan Umum</li>
+                        <li>Pergantian Antar Waktu</li>
+                        <li>Ketenagakerjaan</li>
+                        <li>Sengketa Informasi Publik / KIP</li>
+                        <li>Pengadaan Tanah</li>
+                        <li>Penyalahgunaan Wewenang</li>
+                        <li>Tindakan Administrasi Pemerintahan</li>
+                        <li>Mahkamah Konstitusi</li>
+                        <li>Perselisihan Hasil Pemilu</li>
+                        <li>Sengketa Kewenangan</li>
+                        <li>Merek</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Hukum TUN" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- HUKUM KELUARGA -->
+            <article id="keluarga" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">02 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-house-heart-fill"></i>
+                        </div>
+                        <h3>Hukum Keluarga</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Hukum Keluarga meliputi:</p>
+                    <ul>
+                        <li>Cerai Talak / Cerai Gugat</li>
+                        <li>Hak Asuh Anak</li>
+                        <li>Gugatan Pembagian Harta Gono Gini (Harta Bersama)</li>
+                        <li>Penetapan Ahli Waris (PAW)</li>
+                        <li>Gugatan Waris</li>
+                        <li>Pembatalan Perkawinan</li>
+                        <li>Pernikahan Anak di Bawah Umur / Dispensasi Nikah</li>
+                        <li>Permohonan Isbat Nikah dan Isbat Nikah Kontensius / Pengesahan Perkawinan</li>
+                        <li>Pengangkatan Anak / Adopsi Anak</li>
+                        <li>Perwalian Anak</li>
+                        <li>Permohonan Asal Usul Anak / Pengesahan / Pengakuan Anak</li>
+                        <li>Pengampuan</li>
+                        <li>Ekonomi Syariah</li>
+                        <li>Kekerasan Dalam Rumah Tangga (KDRT)</li>
+                        <li>Perzinahan / Overspel</li>
+                        <li>Poligami</li>
+                        <li>Perjanjian Perkawinan</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Hukum Keluarga" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- NOTARIS & PPAT -->
+            <article id="notaris" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">03 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-file-earmark-richtext-fill"></i>
+                        </div>
+                        <h3>Jasa Notaris & PPAT</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Jasa Notaris meliputi:</p>
+                    <ul>
+                        <li>Akta Pendirian PT</li>
+                        <li>Perubahan PT</li>
+                        <li>Yayasan</li>
+                        <li>CV</li>
+                        <li>Firma</li>
+                        <li>Perjanjian Kerja Sama</li>
+                        <li>Akta Hutang Piutang</li>
+                        <li>Kuasa Menjual</li>
+                        <li>Surat Wasiat</li>
+                        <li>Legalisasi / Waarmerking</li>
+                    </ul>
+
+                    <p class="jlc-services-subheading">PPAT meliputi:</p>
+                    <ul>
+                        <li>AJB</li>
+                        <li>APHT</li>
+                        <li>Roya</li>
+                        <li>Balik Nama Sertifikat</li>
+                        <li>Pemecahan Sertifikat</li>
+                        <li>Penggabungan Sertifikat</li>
+                        <li>Hibah Tanah</li>
+                        <li>Tukar Menukar</li>
+                        <li>Peningkatan SHGB ke SHM</li>
+                        <li>SKMHT</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Jasa Notaris & PPAT" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- CORPORATE -->
+            <article id="corporate" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">04 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-buildings-fill"></i>
+                        </div>
+                        <h3>Corporate & Business</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Corporate & Business meliputi:</p>
+                    <ul>
+                        <li>Retainer Perusahaan</li>
+                        <li>Corporate Legal</li>
+                        <li>Perselisihan Hubungan Industrial (PHI)</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Corporate & Business" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- ARBITRASE -->
+            <article id="arbitrase" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">05 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-file-earmark-check-fill"></i>
+                        </div>
+                        <h3>Arbitrase</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Arbitrase meliputi:</p>
+                    <ul>
+                        <li>Sengketa Perdagangan</li>
+                        <li>Arbitrase Institusional</li>
+                        <li>Arbitrase Ad Hoc</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Arbitrase" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- HUKUM PAJAK -->
+            <article id="pajak" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">06 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-receipt"></i>
+                        </div>
+                        <h3>Hukum Pajak</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Hukum Pajak meliputi:</p>
+                    <ul>
+                        <li>Banding Pajak</li>
+                        <li>Keberatan Pajak</li>
+                        <li>Gugatan Pajak</li>
+                        <li>Pidana Pajak</li>
+                        <li>Peninjauan Kembali</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Hukum Pajak" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- LITIGASI PIDANA -->
+            <article id="pidana" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">07 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-shield"></i>
+                        </div>
+                        <h3>Litigasi Pidana</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Hukum Pidana Umum meliputi:</p>
+                    <ul>
+                        <li>Pembunuhan</li>
+                        <li>Pencurian</li>
+                        <li>Penipuan</li>
+                        <li>Penggelapan</li>
+                        <li>Hak Asuh Anak</li>
+                        <li>Perampokan</li>
+                        <li>Penganiayaan</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <p class="jlc-services-subheading">Hukum Pidana Khusus meliputi:</p>
+                    <ul>
+                        <li>Tindak Pidana Korupsi (TIPIKOR)</li>
+                        <li>Tindak Pidana Narkotika</li>
+                        <li>Tindak Pidana Berat Pelanggaran HAM</li>
+                        <li>Tindak Pidana Terorisme dan Tindak Pidana Pencucian Uang (TPPU)</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Litigasi Pidana" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- LITIGASI PERDATA -->
+            <article id="perdata" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">08 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h3>Litigasi Perdata</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Hukum Perdata Umum meliputi:</p>
+                    <ul>
+                        <li>Perbuatan Melawan Hukum (PMH)</li>
+                        <li>Wanprestasi</li>
+                        <li>Gugatan Sederhana</li>
+                        <li>Perceraian (Non Muslim)</li>
+                        <li>Perubahan Identitas (Volunter)</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <p class="jlc-services-subheading">Hukum Perdata Khusus meliputi:</p>
+                    <ul>
+                        <li>Kepailitan</li>
+                        <li>Penundaan Kewajiban Pembayaran Utang (PKPU)</li>
+                        <li>Hak Kekayaan Intelektual (HAKI)</li>
+                        <li>Perselisihan Hubungan Industrial (PHI)</li>
+                        <li>Komisi Pengawas Persaingan Usaha (KPPU)</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Litigasi Perdata" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- UPAYA HUKUM -->
+            <article id="upaya-hukum" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">09 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-journal-text"></i>
+                        </div>
+                        <h3>Upaya Hukum</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Upaya Hukum meliputi:</p>
+                    <ul>
+                        <li>Upaya Hukum Verzet (Perlawanan atas Putusan Verstek)</li>
+                        <li>Upaya Hukum Banding (Perlawanan atas Putusan Pertama / Pengadilan Negeri)</li>
+                        <li>Upaya Hukum Kasasi (Perlawanan terhadap Putusan Banding)</li>
+                        <li>Upaya Hukum Peninjauan Kembali / PK (Perlawanan atas Putusan Banding)</li>
+                        <li>Dan lain-lain</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Upaya Hukum" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+            <!-- PERIZINAN USAHA -->
+            <article id="perizinan" class="jlc-services-card">
+                <div class="jlc-services-top">
+                    <span class="jlc-services-code">10 / LAYANAN</span>
+
+                    <div class="jlc-services-title">
+                        <div class="jlc-services-icon">
+                            <i class="bi bi-file-earmark-richtext-fill"></i>
+                        </div>
+                        <h3>Perizinan Usaha</h3>
+                    </div>
+                </div>
+
+                <div class="jlc-services-body">
+                    <p>Biro Jasa meliputi:</p>
+                    <ul>
+                        <li>Pembuatan NIB</li>
+                        <li>NPWP Badan</li>
+                        <li>Sertifikat Standar OSS</li>
+                        <li>Perubahan Data OSS</li>
+                        <li>Izin Reklame</li>
+                        <li>Izin Operasional</li>
+                        <li>SK Kemenkumham</li>
+                        <li>Perizinan Berusaha Berbasis Risiko</li>
+                    </ul>
+
+                    <a href="https://wa.lawfirm-jlc.com/?kebutuhan=Perizinan Usaha" class="jlc-services-button">
+                        Konsultasi Sekarang
+                    </a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- BOTTOM CONSULTATION CTA -->
+        <div class="jlc-services-bottom">
+            <div class="jlc-services-bottom-icon">
+                <i class="bi bi-bank"></i>
+            </div>
+
+            <div class="jlc-services-bottom-content">
+                <h3>Tidak Menemukan Layanan yang Anda Cari?</h3>
+                <p>
+                    Tim kami siap membantu menemukan lawyer terbaik
+                    sesuai kebutuhan hukum Anda.
+                </p>
+            </div>
+
+            <div class="jlc-services-bottom-action">
+                <a href="https://wa.lawfirm-jlc.com/" class="jlc-services-bottom-button">
+                    Hubungi Sekarang
+                </a>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+ 
+<section class="cta-ekonomi-section">
+    <div class="container">
+        <div class="cta-ekonomi-wrapper">
+
+            <div class="cta-ekonomi-content">
+                <span class="cta-ekonomi-label">JUSTICIA LEGAL COUNSEL</span>
+
+                <h2>
+                    Konsultasikan Permasalahan Hukum Ekonomi Syariah Anda Bersama JLC
+                </h2>
+
+                <p>
+                    Menghadapi sengketa akad, pembiayaan, perbankan, maupun kerja sama bisnis syariah membutuhkan pertimbangan hukum yang tepat. Jangan mengambil keputusan tanpa memahami konsekuensi hukum dari permasalahan yang sedang Anda hadapi.
+                </p>
+
+                <p>
+                    JLC siap membantu melalui layanan Pengacara Ekonomi Syariah, termasuk pilihan pendampingan oleh Pengacara Perempuan Ekonomi Syariah. Sampaikan kronologi dan kebutuhan hukum Anda agar tim JLC dapat membantu mengidentifikasi pilihan penanganan yang relevan.
+                </p>
+
+                <p>
+                    Dapatkan informasi mengenai layanan konsultasi, pendampingan, dan penyelesaian perkara ekonomi syariah sesuai kebutuhan Anda.
+                </p>
+
+                <a href="https://wa.lawfirm-jlc.com/" class="cta-ekonomi-button">
+                    KONSULTASI SEKARANG
+                </a>
+            </div>
+
+            <div class="cta-ekonomi-visual">
+                <div class="cta-ekonomi-image">
+                    <img src="images/gallery/foto-1.webp"
+                         alt="Konsultasi hukum ekonomi syariah bersama JLC">
+                </div>
+
+                <div class="cta-ekonomi-decoration"></div>
+
+                <div class="cta-ekonomi-caption">
+                    <i class="bi bi-shield-check"></i>
+                    <span>Pendampingan Hukum Profesional</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- <section class="location section">
+        <div class="container">
+            <div class="location-content">
+                <div class="location-map">
+                    <iframe title="Lokasi Bimbel Makala"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d495.7756572580125!2d106.99662!3d-6.236654!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d26ec3caaf7%3A0xb84237c42e54cda1!2sBimbel%20Makala%20Taruna!5e0!3m2!1sen!2sus!4v1753553272630!5m2!1sen!2sus"
+                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="location-info">
+                    <p class="title">Lokasi Bimbel Makala Learning Center :</p>
+                    <p>Jl. Kemakmuran No.7, Marga Jaya, Kec. Bekasi Sel., Kota Bks, Jawa Barat 17114, Kota Bks, Jawa Barat
+                        17144</p>
+                    <div style="text-align: center;">
+                        <a href="https://wa.lawfirm-jlc.com?kebutuhan=Bimbel Makala" class="btn text-white"
+                            rel="nofollow">
+                            KONSULTASI SEKARANG
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+ <section class="list-kota-section">
+        <div class="list-kota">
+
+            <div class="list-kota-header">
+
+               <!--  <span class="list-kota-label">
+                    JANGKAUAN LAYANAN
+                </span> -->
+
+                <h2>
+                    Layanan Konsultasi Hukum di Berbagai Kota di Indonesia
+                </h2>
+
+                <p>
+                    Justicia Legal Counsel menyediakan layanan konsultasi dan pendampingan hukum bagi masyarakat di berbagai kota di Indonesia. Klien dapat berkonsultasi mengenai permasalahan hukum dan memperoleh pendampingan sesuai kebutuhan.
+                </p>
+
+                <p class="list-kota-intro">
+                    Beberapa wilayah layanan JLC meliputi:
+                </p>
+
+            </div>
+
+            <div class="list-kota-container">
+
+                <div class="list-kota-grid">
+
+                    <a href="https://lawfirm-jlc.com/">Surabaya</a>
+                    <a href="https://lawfirm-jlc.com/">Medan</a>
+                    <a href="https://lawfirm-jlc.com/">Jakarta</a>
+                    <a href="https://lawfirm-jlc.com/">Bandung</a>
+                    <a href="https://lawfirm-jlc.com/">Semarang</a>
+                    <a href="https://lawfirm-jlc.com/">Malang</a>
+                    <a href="https://lawfirm-jlc.com/">Solo</a>
+                    <a href="https://lawfirm-jlc.com/">Makassar</a>
+                    <a href="https://lawfirm-jlc.com/">Batam</a>
+                    <a href="https://lawfirm-jlc.com/">Bekasi</a>
+                    <a href="https://lawfirm-jlc.com/">Kediri</a>
+                    <a href="https://lawfirm-jlc.com/">Pekanbaru</a>
+                    <a href="https://lawfirm-jlc.com/">Balikpapan</a>
+                    <a href="https://lawfirm-jlc.com/">Bontang</a>
+                    <a href="https://lawfirm-jlc.com/">Kutai Kartanegara</a>
+                    <a href="https://lawfirm-jlc.com/">Cilegon</a>
+                    <a href="https://lawfirm-jlc.com/">Sidoarjo</a>
+                    <a href="https://lawfirm-jlc.com/">Palembang</a>
+                    <a href="https://lawfirm-jlc.com/">Gresik</a>
+                    <a href="https://lawfirm-jlc.com/">Banyuwangi</a>
+
+                </div>
+
+            </div>
+
+            <div class="list-kota-footer">
+                <p>
+                    Klien dari kota lain juga dapat menghubungi tim Justicia Legal Counsel untuk memperoleh informasi mengenai layanan konsultasi dan pendampingan hukum.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+<section class="faq-modern">
+    <div class="container">
+        <div class="faq-modern-wrapper">
+
+            <div class="faq-modern-info">
+                <span class="faq-modern-label">FAQ</span>
+                <h2>Pertanyaan yang Sering Diajukan</h2>
+                <p>
+                    Temukan jawaban atas berbagai pertanyaan mengenai
+                    layanan dan pendampingan hukum dari Justicia Legal Counsel.
+                </p>
+
+                <a href="https://wa.lawfirm-jlc.com/" class="faq-modern-cta">
+                    Konsultasikan Masalah Anda
+                </a>
+            </div>
+
+            <div class="faq-modern-list">
+
+                <div class="faq-modern-item active">
+                    <button class="faq-modern-question">
+                        <span class="faq-modern-number">01</span>
+                        <span>Apa itu Justicia Legal Counsel?</span>
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <div class="faq-modern-answer">
+                        <p>
+                            Justicia Legal Counsel merupakan layanan
+                            pendampingan hukum profesional yang membantu
+                            individu maupun badan usaha dalam menghadapi
+                            berbagai persoalan hukum.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-modern-item">
+                    <button class="faq-modern-question">
+                        <span class="faq-modern-number">02</span>
+                        <span>Bagaimana cara mendapatkan konsultasi hukum?</span>
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <div class="faq-modern-answer">
+                        <p>
+                            Anda dapat menghubungi tim JLC melalui WhatsApp
+                            untuk menyampaikan permasalahan dan mendapatkan
+                            informasi mengenai layanan konsultasi.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-modern-item">
+                    <button class="faq-modern-question">
+                        <span class="faq-modern-number">03</span>
+                        <span>Apakah JLC melayani konsultasi online?</span>
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <div class="faq-modern-answer">
+                        <p>
+                            Konsultasi dapat diawali secara online melalui
+                            saluran komunikasi yang tersedia. Silakan
+                            hubungi tim JLC untuk mengetahui mekanismenya.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-modern-item">
+                    <button class="faq-modern-question">
+                        <span class="faq-modern-number">04</span>
+                        <span>Apakah biaya konsultasi dapat diketahui di awal?</span>
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <div class="faq-modern-answer">
+                        <p>
+                            Informasi biaya dapat dikonfirmasi terlebih dahulu
+                            kepada tim JLC sesuai kebutuhan dan jenis
+                            pendampingan hukum yang diperlukan.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="faq-modern-item">
+                    <button class="faq-modern-question">
+                        <span class="faq-modern-number">05</span>
+                        <span>Apakah JLC menangani berbagai perkara hukum?</span>
+                        <i class="bi bi-plus"></i>
+                    </button>
+                    <div class="faq-modern-answer">
+                        <p>
+                            JLC menyediakan berbagai layanan hukum.
+                            Hubungi tim kami untuk memastikan kesesuaian
+                            layanan dengan permasalahan Anda.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+    <div class="button-wa">
+        <a href="https://wa.lawfirm-jlc.com?kebutuhan=Bimbel Makala" rel="nofollow" aria-label="Tautan Hubungi Admin"
+            class="text-decoration-none">
+            <span class="text-label">Konsultasi Gratis</span>
+            <img src="https://bimbelmakala.com/images/logo-wa.webp" alt="Logo WhatsApp">
+        </a>
+    </div>
+        </main>
+
+        <footer>
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+
+                        <div class="footer-logo">
+                            <a href="/">
+                                <img src="images/logo-web.jpeg"
+                                    alt="Justicia Legal Counsel">
+                            </a>
+
+                            <p>
+                                Justicia Legal Counsel memberikan layanan hukum
+                                profesional untuk melindungi hak dan kepentingan
+                                Anda dengan integritas, dedikasi, dan solusi
+                                terbaik.
+                            </p>
+                        </div>
+
+                        <div class="footer-links">
+                            <h3>LAYANAN</h3>
+                            <ul>
+                                <li><a href="#">Arbitrase</a></li>
+                                <li><a href="#">Corporate &amp; Business</a></li>
+                                <li><a href="#">Hukum Keluarga</a></li>
+                                <li><a href="#">Hukum Pajak</a></li>
+                                <li><a href="#">Hukum Tata Usaha Negara (TUN)</a></li>
+                                <li><a href="#">Jasa Notaris &amp; PPAT</a></li>
+                                <li><a href="#">Litigasi Perdata</a></li>
+                                <li><a href="#">Litigasi Pidana</a></li>
+                                <li><a href="#">Perizinan Usaha</a></li>
+                                <li><a href="#">Upaya Hukum</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-links">
+                            <h3>TENTANG KAMI</h3>
+                            <ul>
+                                <li><a href="#">Tim Kami</a></li>
+                                <li><a href="#">Kontak</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="footer-contact">
+                            <h3>KONTAK KAMI</h3>
+
+                            <p>
+                                <i class="bi bi-telephone-fill"></i>
+                                +62 857 7223 7707
+                            </p>
+
+                            <p>
+                                <i class="bi bi-clock-fill"></i>
+                                Senin - Jumat<br>
+                                09.00 - 17.00 WIB
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <div class="footer-bottom">
+                        <p>
+                            © 2026 Justicia Legal Counsel.
+                            All Rights Reserved.
+                        </p>
+                    </div>
+                </div>
+            </footer>        
+    </footer>
+    </div>
+        <script>
+        document.querySelectorAll("ul li a").forEach(link => {
+            link.addEventListener("click", function() {
+                document.querySelectorAll("ul li a").forEach(el => el.classList.remove("active"));
+                this.classList.add("active");
+            });
+        });
+    </script>
+    <script src="https://bimbelmakala.com/js/script.min.js"></script>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" defer>
+</script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        const benefitHeaders = document.querySelectorAll('.benefit-header');
+        benefitHeaders.forEach(header => {
+            header.addEventListener('click', function() {
+                const benefitItem = this.parentElement;
+                const isActive = benefitItem.classList.contains('active');
+
+                // Close all items
+                document.querySelectorAll('.benefit-item').forEach(item => {
+                    item.classList.remove('active');
+                });
+
+                // Open clicked item if it wasn't active
+                if (!isActive) {
+                    benefitItem.classList.add('active');
+                }
+            });
+        });
+    });
+</script>
+</html>
